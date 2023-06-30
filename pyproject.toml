@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "squadpilot"
+version = "0.1.0"
+description = "SquadPilot is a webapp designed to help you create events with your friends."
+authors = ["Medhy DOHOU <powerpixel3@proton.me>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+flask = "^2.3.2"
+
+
+[tool.poetry.group.dev.dependencies]
+yapf = "^0.40.1"
+flake8 = "^6.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
